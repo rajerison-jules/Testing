@@ -6,9 +6,9 @@ def ftoc(nbr)
 
   celsius = (f - 32) / 1.8 # formule de deg celcius
 
-  celsius = celcius.ceil(1) #Arrondie le 2eme chiffre aprés le virgule
+  celsius = celsius.ceil(2) #Arrondie le 2eme chiffre aprés le virgule
 
-return celcius
+return celsius
 
 end
 
@@ -23,4 +23,4 @@ def ctof(nbr)
  return f 
 	
 end
-ctof(0)
+
